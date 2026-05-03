@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="520" viewBox="0 0 920 520" role="img" aria-labelledby="title desc">
+  <title id="title">Equilibrium and Computational Complexity</title>
+  <desc id="desc">Existence is mathematical; computation decides whether an equilibrium can be found.</desc>
+  <defs>
+    <style>
+      .bg{fill:#f7faff}.card{fill:#fff;stroke:#cbd6e7;stroke-width:2}.blue{fill:#002fa7}.line{stroke:#002fa7;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;fill:none}.thin{stroke:#8aa2c6;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;fill:none}.dash{stroke-dasharray:10 9}.label{font:700 24px Arial,sans-serif;fill:#172033}.small{font:600 17px Arial,sans-serif;fill:#5f6f87}.tiny{font:600 14px Arial,sans-serif;fill:#5f6f87}.en{font:800 18px Georgia,'Times New Roman',serif;letter-spacing:.04em;fill:#002fa7}.math{font:italic 22px 'Times New Roman','Cambria Math',serif;fill:#172033}.node{fill:#fff;stroke:#002fa7;stroke-width:3}.soft{fill:#eaf1ff;stroke:#8aa2c6;stroke-width:2}
+    </style>
+  </defs>
+  <rect class="bg" width="920" height="520" rx="26"/>
+  <rect x="28" y="26" width="864" height="468" rx="24" fill="#fff" stroke="#d8e2ef" stroke-width="2"/>
+  <text x="58" y="70" class="en">GAME THEORY FIGURE</text>
+  <text x="58" y="108" class="label">Equilibrium and Computational Complexity</text>
+  <text x="58" y="136" class="small">Existence is mathematical; computation decides whether an equilibrium can be found.</text>
+  <g transform="translate(100,190)"><g transform="translate(0,0)"><rect width="138" height="86" rx="18" class="card"/><text x="69" y="50" text-anchor="middle" class="label">Existence</text></g><g transform="translate(180,0)"><rect width="138" height="86" rx="18" class="card"/><text x="69" y="50" text-anchor="middle" class="label">Search</text></g><g transform="translate(360,0)"><rect width="138" height="86" rx="18" class="card"/><text x="69" y="50" text-anchor="middle" class="label">Complexity</text></g><g transform="translate(540,0)"><rect width="138" height="86" rx="18" class="card"/><text x="69" y="50" text-anchor="middle" class="label">Approximation</text></g><path class="line" d="M144 43h70M324 43h70M504 43h70"/><path class="line dash" d="M72 132C210 222 470 220 612 132"/><text x="226" y="214" class="small">provable does not mean fast</text><circle class="node" cx="688" cy="43" r="30"/><text x="674" y="51" class="label">eps</text></g>
+</svg>

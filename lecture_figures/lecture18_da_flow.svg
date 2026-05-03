@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="520" viewBox="0 0 920 520" role="img" aria-labelledby="title desc">
+  <title id="title">Deferred Acceptance Flow</title>
+  <desc id="desc">Propose, hold, reject, and repeat until no proposer remains unmatched.</desc>
+  <defs>
+    <style>
+      .bg{fill:#f7faff}.card{fill:#fff;stroke:#cbd6e7;stroke-width:2}.blue{fill:#002fa7}.line{stroke:#002fa7;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;fill:none}.thin{stroke:#8aa2c6;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;fill:none}.dash{stroke-dasharray:10 9}.label{font:700 24px Arial,sans-serif;fill:#172033}.small{font:600 17px Arial,sans-serif;fill:#5f6f87}.tiny{font:600 14px Arial,sans-serif;fill:#5f6f87}.en{font:800 18px Georgia,'Times New Roman',serif;letter-spacing:.04em;fill:#002fa7}.math{font:italic 22px 'Times New Roman','Cambria Math',serif;fill:#172033}.node{fill:#fff;stroke:#002fa7;stroke-width:3}.soft{fill:#eaf1ff;stroke:#8aa2c6;stroke-width:2}
+    </style>
+  </defs>
+  <rect class="bg" width="920" height="520" rx="26"/>
+  <rect x="28" y="26" width="864" height="468" rx="24" fill="#fff" stroke="#d8e2ef" stroke-width="2"/>
+  <text x="58" y="70" class="en">GAME THEORY FIGURE</text>
+  <text x="58" y="108" class="label">Deferred Acceptance Flow</text>
+  <text x="58" y="136" class="small">Propose, hold, reject, and repeat until no proposer remains unmatched.</text>
+  <g transform="translate(88,178)"><g transform="translate(0,0)"><rect width="156" height="100" rx="20" class="card"/><text x="78" y="48" text-anchor="middle" class="label">Propose</text><text x="78" y="76" text-anchor="middle" class="tiny">Step 1</text></g><g transform="translate(196,0)"><rect width="156" height="100" rx="20" class="card"/><text x="78" y="48" text-anchor="middle" class="label">Hold best</text><text x="78" y="76" text-anchor="middle" class="tiny">Step 2</text></g><g transform="translate(392,0)"><rect width="156" height="100" rx="20" class="card"/><text x="78" y="48" text-anchor="middle" class="label">Reject rest</text><text x="78" y="76" text-anchor="middle" class="tiny">Step 3</text></g><g transform="translate(588,0)"><rect width="156" height="100" rx="20" class="card"/><text x="78" y="48" text-anchor="middle" class="label">Stop</text><text x="78" y="76" text-anchor="middle" class="tiny">Step 4</text></g><path class="line" d="M160 50h36M356 50h36M552 50h36"/><path class="line dash" d="M660 122C520 204 270 204 118 122"/><text x="282" y="210" class="small">stability means no acceptable blocking pair</text></g>
+</svg>

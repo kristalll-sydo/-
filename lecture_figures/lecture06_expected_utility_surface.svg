@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="520" viewBox="0 0 920 520" role="img" aria-labelledby="title desc">
+  <title id="title">Expected Utility Surface</title>
+  <desc id="desc">A mixed strategy turns uncertain payoffs into probability-weighted utility.</desc>
+  <defs>
+    <style>
+      .bg{fill:#f7faff}.card{fill:#fff;stroke:#cbd6e7;stroke-width:2}.blue{fill:#002fa7}.line{stroke:#002fa7;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;fill:none}.thin{stroke:#8aa2c6;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;fill:none}.dash{stroke-dasharray:10 9}.label{font:700 24px Arial,sans-serif;fill:#172033}.small{font:600 17px Arial,sans-serif;fill:#5f6f87}.tiny{font:600 14px Arial,sans-serif;fill:#5f6f87}.en{font:800 18px Georgia,'Times New Roman',serif;letter-spacing:.04em;fill:#002fa7}.math{font:italic 22px 'Times New Roman','Cambria Math',serif;fill:#172033}.node{fill:#fff;stroke:#002fa7;stroke-width:3}.soft{fill:#eaf1ff;stroke:#8aa2c6;stroke-width:2}
+    </style>
+  </defs>
+  <rect class="bg" width="920" height="520" rx="26"/>
+  <rect x="28" y="26" width="864" height="468" rx="24" fill="#fff" stroke="#d8e2ef" stroke-width="2"/>
+  <text x="58" y="70" class="en">GAME THEORY FIGURE</text>
+  <text x="58" y="108" class="label">Expected Utility Surface</text>
+  <text x="58" y="136" class="small">A mixed strategy turns uncertain payoffs into probability-weighted utility.</text>
+  <g transform="translate(105,165)"><path class="thin" d="M66 248h500M66 248L160 108M66 248V48"/><path d="M150 214C230 108 330 88 444 134c62 25 108 57 156 42v86H150Z" fill="#eaf1ff" stroke="#002fa7" stroke-width="4"/><path class="line" d="M150 214C230 108 330 88 444 134c62 25 108 57 156 42"/><circle class="node" cx="330" cy="116" r="18"/><text x="348" y="113" class="label">EU peak</text><text x="575" y="280" class="small">p</text><text x="132" y="102" class="small">q</text><text x="22" y="46" class="small">E[u]</text><rect x="610" y="42" width="190" height="116" rx="16" class="card"/><text x="634" y="84" class="math">E[u]=sum p_i u_i</text><text x="634" y="122" class="tiny">probability x payoff</text></g>
+</svg>

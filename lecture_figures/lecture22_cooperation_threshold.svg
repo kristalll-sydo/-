@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="520" viewBox="0 0 920 520" role="img" aria-labelledby="title desc">
+  <title id="title">Cooperation Threshold</title>
+  <desc id="desc">The more the future matters, the easier it is to discipline short-run defection.</desc>
+  <defs>
+    <style>
+      .bg{fill:#f7faff}.card{fill:#fff;stroke:#cbd6e7;stroke-width:2}.blue{fill:#002fa7}.line{stroke:#002fa7;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;fill:none}.thin{stroke:#8aa2c6;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;fill:none}.dash{stroke-dasharray:10 9}.label{font:700 24px Arial,sans-serif;fill:#172033}.small{font:600 17px Arial,sans-serif;fill:#5f6f87}.tiny{font:600 14px Arial,sans-serif;fill:#5f6f87}.en{font:800 18px Georgia,'Times New Roman',serif;letter-spacing:.04em;fill:#002fa7}.math{font:italic 22px 'Times New Roman','Cambria Math',serif;fill:#172033}.node{fill:#fff;stroke:#002fa7;stroke-width:3}.soft{fill:#eaf1ff;stroke:#8aa2c6;stroke-width:2}
+    </style>
+  </defs>
+  <rect class="bg" width="920" height="520" rx="26"/>
+  <rect x="28" y="26" width="864" height="468" rx="24" fill="#fff" stroke="#d8e2ef" stroke-width="2"/>
+  <text x="58" y="70" class="en">GAME THEORY FIGURE</text>
+  <text x="58" y="108" class="label">Cooperation Threshold</text>
+  <text x="58" y="136" class="small">The more the future matters, the easier it is to discipline short-run defection.</text>
+  <g transform="translate(100,160)"><path class="line" d="M70 292V42M70 292h620"/><path class="line" d="M90 254C196 236 300 198 398 136s190-84 282-92"/><path class="thin dash" d="M382 292V144M70 144h312"/><circle class="node" cx="382" cy="144" r="20"/><text x="356" y="328" class="label">delta*</text><text x="612" y="328" class="small">discount factor</text><text x="18" y="56" class="small">sustainable cooperation</text><rect x="482" y="132" width="220" height="92" rx="18" class="card"/><text x="508" y="170" class="small">delta >= delta*: cooperate</text><text x="508" y="202" class="small">delta &lt; delta*: defect</text></g>
+</svg>

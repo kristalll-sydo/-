@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="520" viewBox="0 0 920 520" role="img" aria-labelledby="title desc">
+  <title id="title">Stable Matching Lattice</title>
+  <desc id="desc">Stable matchings can be ordered by one side preference.</desc>
+  <defs>
+    <style>
+      .bg{fill:#f7faff}.card{fill:#fff;stroke:#cbd6e7;stroke-width:2}.blue{fill:#002fa7}.line{stroke:#002fa7;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;fill:none}.thin{stroke:#8aa2c6;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;fill:none}.dash{stroke-dasharray:10 9}.label{font:700 24px Arial,sans-serif;fill:#172033}.small{font:600 17px Arial,sans-serif;fill:#5f6f87}.tiny{font:600 14px Arial,sans-serif;fill:#5f6f87}.en{font:800 18px Georgia,'Times New Roman',serif;letter-spacing:.04em;fill:#002fa7}.math{font:italic 22px 'Times New Roman','Cambria Math',serif;fill:#172033}.node{fill:#fff;stroke:#002fa7;stroke-width:3}.soft{fill:#eaf1ff;stroke:#8aa2c6;stroke-width:2}
+    </style>
+  </defs>
+  <rect class="bg" width="920" height="520" rx="26"/>
+  <rect x="28" y="26" width="864" height="468" rx="24" fill="#fff" stroke="#d8e2ef" stroke-width="2"/>
+  <text x="58" y="70" class="en">GAME THEORY FIGURE</text>
+  <text x="58" y="108" class="label">Stable Matching Lattice</text>
+  <text x="58" y="136" class="small">Stable matchings can be ordered by one side preference.</text>
+  <g transform="translate(160,145)"><g><circle class="node" cx="300" cy="40" r="46"/><text x="300" y="48" text-anchor="middle" class="label">M-opt</text></g><g><circle class="node" cx="150" cy="180" r="46"/><text x="150" y="188" text-anchor="middle" class="label">S1</text></g><g><circle class="node" cx="450" cy="180" r="46"/><text x="450" y="188" text-anchor="middle" class="label">S2</text></g><g><circle class="node" cx="300" cy="320" r="46"/><text x="300" y="328" text-anchor="middle" class="label">W-opt</text></g><path class="line" d="M276 78L174 142M324 78L426 142M174 218L276 282M426 218L324 282"/><text x="560" y="140" class="small">top: proposer-favored</text><text x="560" y="178" class="small">bottom: receiver-favored</text><path class="thin dash" d="M530 194h210"/></g>
+</svg>

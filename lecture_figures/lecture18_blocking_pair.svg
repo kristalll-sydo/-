@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="520" viewBox="0 0 920 520" role="img" aria-labelledby="title desc">
+  <title id="title">Blocking Pair Breaks Stability</title>
+  <desc id="desc">If two sides both prefer each other, the current matching is unstable.</desc>
+  <defs>
+    <style>
+      .bg{fill:#f7faff}.card{fill:#fff;stroke:#cbd6e7;stroke-width:2}.blue{fill:#002fa7}.line{stroke:#002fa7;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;fill:none}.thin{stroke:#8aa2c6;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;fill:none}.dash{stroke-dasharray:10 9}.label{font:700 24px Arial,sans-serif;fill:#172033}.small{font:600 17px Arial,sans-serif;fill:#5f6f87}.tiny{font:600 14px Arial,sans-serif;fill:#5f6f87}.en{font:800 18px Georgia,'Times New Roman',serif;letter-spacing:.04em;fill:#002fa7}.math{font:italic 22px 'Times New Roman','Cambria Math',serif;fill:#172033}.node{fill:#fff;stroke:#002fa7;stroke-width:3}.soft{fill:#eaf1ff;stroke:#8aa2c6;stroke-width:2}
+    </style>
+  </defs>
+  <rect class="bg" width="920" height="520" rx="26"/>
+  <rect x="28" y="26" width="864" height="468" rx="24" fill="#fff" stroke="#d8e2ef" stroke-width="2"/>
+  <text x="58" y="70" class="en">GAME THEORY FIGURE</text>
+  <text x="58" y="108" class="label">Blocking Pair Breaks Stability</text>
+  <text x="58" y="136" class="small">If two sides both prefer each other, the current matching is unstable.</text>
+  <g transform="translate(120,160)"><text x="98" y="40" class="label">Applicants</text><text x="566" y="40" class="label">Schools</text><g><circle class="node" cx="120" cy="100" r="34"/><text x="120" y="108" text-anchor="middle" class="label">i</text></g><g><circle class="node" cx="120" cy="225" r="34"/><text x="120" y="233" text-anchor="middle" class="label">k</text></g><g><circle class="node" cx="600" cy="100" r="34"/><text x="600" y="108" text-anchor="middle" class="label">j</text></g><g><circle class="node" cx="600" cy="225" r="34"/><text x="600" y="233" text-anchor="middle" class="label">h</text></g><path class="thin" d="M154 225L566 225"/><path class="thin" d="M154 100L566 100"/><path class="line dash" d="M154 100C300 20 448 20 566 100"/><text x="300" y="72" class="label">mutual improvement</text><text x="280" y="270" class="small">dashed edge is a blocking pair</text></g>
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="520" viewBox="0 0 920 520" role="img" aria-labelledby="title desc">
+  <title id="title">Network Game Externalities</title>
+  <desc id="desc">A node strategy changes neighbor payoffs through its connections.</desc>
+  <defs>
+    <style>
+      .bg{fill:#f7faff}.card{fill:#fff;stroke:#cbd6e7;stroke-width:2}.blue{fill:#002fa7}.line{stroke:#002fa7;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;fill:none}.thin{stroke:#8aa2c6;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;fill:none}.dash{stroke-dasharray:10 9}.label{font:700 24px Arial,sans-serif;fill:#172033}.small{font:600 17px Arial,sans-serif;fill:#5f6f87}.tiny{font:600 14px Arial,sans-serif;fill:#5f6f87}.en{font:800 18px Georgia,'Times New Roman',serif;letter-spacing:.04em;fill:#002fa7}.math{font:italic 22px 'Times New Roman','Cambria Math',serif;fill:#172033}.node{fill:#fff;stroke:#002fa7;stroke-width:3}.soft{fill:#eaf1ff;stroke:#8aa2c6;stroke-width:2}
+    </style>
+  </defs>
+  <rect class="bg" width="920" height="520" rx="26"/>
+  <rect x="28" y="26" width="864" height="468" rx="24" fill="#fff" stroke="#d8e2ef" stroke-width="2"/>
+  <text x="58" y="70" class="en">GAME THEORY FIGURE</text>
+  <text x="58" y="108" class="label">Network Game Externalities</text>
+  <text x="58" y="136" class="small">A node strategy changes neighbor payoffs through its connections.</text>
+  <g transform="translate(110,170)"><g><circle class="node" cx="120" cy="80" r="32"/><text x="120" y="88" text-anchor="middle" class="label">A</text></g><g><circle class="node" cx="270" cy="44" r="32"/><text x="270" y="52" text-anchor="middle" class="label">B</text></g><g><circle class="node" cx="420" cy="92" r="32"/><text x="420" y="100" text-anchor="middle" class="label">C</text></g><g><circle class="node" cx="198" cy="220" r="32"/><text x="198" y="228" text-anchor="middle" class="label">D</text></g><g><circle class="node" cx="370" cy="250" r="32"/><text x="370" y="258" text-anchor="middle" class="label">E</text></g><g><circle class="node" cx="560" cy="176" r="32"/><text x="560" y="184" text-anchor="middle" class="label">F</text></g><path class="line" d="M152 82L238 50M300 54L388 86M140 112L184 194M294 70L214 194M430 122L388 222M452 106L532 160M402 248L530 188"/><rect x="635" y="72" width="150" height="128" rx="18" class="card"/><text x="660" y="112" class="small">more links</text><text x="660" y="148" class="small">stronger spillovers</text><text x="660" y="184" class="math">u_i(s_i,s_-i)</text></g>
+</svg>

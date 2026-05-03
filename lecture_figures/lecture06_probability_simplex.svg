@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="520" viewBox="0 0 920 520" role="img" aria-labelledby="title desc">
+  <title id="title">Probability Simplex</title>
+  <desc id="desc">Three pure-strategy probabilities live inside one triangular constraint.</desc>
+  <defs>
+    <style>
+      .bg{fill:#f7faff}.card{fill:#fff;stroke:#cbd6e7;stroke-width:2}.blue{fill:#002fa7}.line{stroke:#002fa7;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;fill:none}.thin{stroke:#8aa2c6;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;fill:none}.dash{stroke-dasharray:10 9}.label{font:700 24px Arial,sans-serif;fill:#172033}.small{font:600 17px Arial,sans-serif;fill:#5f6f87}.tiny{font:600 14px Arial,sans-serif;fill:#5f6f87}.en{font:800 18px Georgia,'Times New Roman',serif;letter-spacing:.04em;fill:#002fa7}.math{font:italic 22px 'Times New Roman','Cambria Math',serif;fill:#172033}.node{fill:#fff;stroke:#002fa7;stroke-width:3}.soft{fill:#eaf1ff;stroke:#8aa2c6;stroke-width:2}
+    </style>
+  </defs>
+  <rect class="bg" width="920" height="520" rx="26"/>
+  <rect x="28" y="26" width="864" height="468" rx="24" fill="#fff" stroke="#d8e2ef" stroke-width="2"/>
+  <text x="58" y="70" class="en">GAME THEORY FIGURE</text>
+  <text x="58" y="108" class="label">Probability Simplex</text>
+  <text x="58" y="136" class="small">Three pure-strategy probabilities live inside one triangular constraint.</text>
+  <g transform="translate(130,165)"><path class="line" d="M270 24L76 338H464Z"/><path class="thin dash" d="M270 24v314M76 338l388-1M174 180h192"/><circle class="node" cx="270" cy="24" r="24"/><circle class="node" cx="76" cy="338" r="24"/><circle class="node" cx="464" cy="338" r="24"/><text x="254" y="18" class="label">A</text><text x="50" y="386" class="label">B</text><text x="468" y="386" class="label">C</text><circle cx="286" cy="204" r="18" fill="#002fa7"/><text x="312" y="211" class="label">mixed strategy p</text><rect x="560" y="84" width="210" height="150" rx="18" class="card"/><text x="590" y="128" class="math">p_A+p_B+p_C=1</text><text x="590" y="168" class="small">each point is a distribution</text></g>
+</svg>
