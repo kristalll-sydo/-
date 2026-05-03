@@ -1,0 +1,21 @@
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+
+/site/*.html
+  Cache-Control: no-store
+
+/site/*.js
+  Cache-Control: public, max-age=0, must-revalidate
+
+/site/*.css
+  Cache-Control: public, max-age=0, must-revalidate
+
+/10-Assets/*
+  Cache-Control: public, max-age=86400
+
+/13-Handouts/*
+  Cache-Control: public, max-age=86400
+
+/00-Study-Guide/Course-Slides/*
+  Cache-Control: public, max-age=86400
